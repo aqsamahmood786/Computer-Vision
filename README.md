@@ -16,10 +16,7 @@ This project was run on the following hardware specification:
 ### Code Structure
 ```
 FacialRecognition
-│   README.md
-│   cv3.yml    
-│   setup.bat
-│   setup.sh
+│
 └───resources
 │   │
 │   └───model_outputs
@@ -43,8 +40,8 @@ FacialRecognition
 │       │   cigar.png
 │       │   mustache.png
 │       │   sunglasses.png
-│   └───samples│ 
-│   └───dataset│  
+│   
+│    
 └───scripts
 │   │   classifiers.py
 │   │   dataset_loader.py
@@ -65,9 +62,7 @@ FacialRecognition
  - mlp_classifier_pytorch.py - this file contains a neural network defined in pytorch, however this is not used as it has been replaced by the MLP classifier provided by scikit-learn. The contents of this can be ignored.
 ### Model Downloads
 The 'model_outputs' directory located within the resourcs folder contains trained models saved in the form of a pickle files (i.e. *.pkl files) or pytorch files which have an extention '*.pt' The feature extractors SIFT,SURF and ORB were applied to SVM,MLP and Logistic Regression classifier,thus given a total of 9 feature-classifier models plus two pretrained CNN models,namely vgg16 and resnet-50. This gives a total of 11 trained models for face recognition.
-**Note that the model vgg16.pt is of signifcant size (approximately 524 mb), and is provided via this [shared link!](https://cityuni-my.sharepoint.com/:u:/g/personal/aqsa_mahmood_city_ac_uk/EaVv4WBd4A1OpJv2NKfmB20BtI_a-Vt8MOemWmcT7QnGWA?e=5fBhW7) Once the model is retrived from the shared link it needs to be placed in the model_outputs directory**
 
-For completeness sake, the link for the model_outputs directory which contains the entire set of filescan be found [here!](https://cityuni-my.sharepoint.com/:f:/g/personal/aqsa_mahmood_city_ac_uk/EpMCSojZ83RGksxGTCCatD0BtTa8gZ9NurdeZJ1VQLrt_g?e=54mA2P)
 ### Installation
 First, install [Python 3.7](https://www.python.org/downloads/) and [Anconda](https://docs.anaconda.com/anaconda/install/)
 Then we need to setup the anaconda enviroment. 
