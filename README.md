@@ -2,7 +2,7 @@
 # Facial Recognition
 ### Author
 Name: Aqsa mahmood
-Email: aqsa.mahmood@city.ac.uk
+
 ### Hardware Specification
 This project was run on the following hardware specification:
 | Hardware | Description |
